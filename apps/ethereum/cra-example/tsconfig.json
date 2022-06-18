@@ -1,0 +1,11 @@
+{
+	"extends": "@decentology/config/react-library.json",
+	"include": ["source/**/*.ts", "source/**/*.tsx", "**/*.json", "**.*.mdx", "src"],
+	"exclude": ["node_modules"],
+	"compilerOptions": {
+		"resolveJsonModule": true,
+		"experimentalDecorators": true,
+		"rootDir": ".",
+		"module": "esnext"
+	}
+}

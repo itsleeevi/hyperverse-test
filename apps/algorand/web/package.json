@@ -1,0 +1,27 @@
+{
+  "name": "@decentology/samples-web",
+  "version": "1.0.5",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.0.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "@decentology/hyperverse": "^1.0.0",
+    "@decentology/hyperverse-flow": "^1.0.0",
+    "@decentology/hyperverse-db": "^1.0.0",
+    "@decentology/hyperverse-algorand": "^1.0.0",
+    "@decentology/hyperverse-algorand-counter": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "next-transpile-modules": "9.0.0",
+    "@types/react": "17.0.37",
+    "typescript": "4.5.2"
+  }
+}

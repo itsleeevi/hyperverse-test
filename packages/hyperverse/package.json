@@ -1,0 +1,48 @@
+{
+	"name": "@decentology/hyperverse",
+	"exports": {
+		".": {
+			"import": "./index.ts"
+		}
+	},
+	"type": "module",
+	"source": "./source/index.ts",
+	"main": "./distribution/index.mjs",
+	"types": "./distribution/index.d.ts",
+	"version": "1.0.17",
+	"license": "MIT",
+	"files": [
+		"distribution"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/decentology/hyperverse-mono"
+	},
+	"publishConfig": {
+		"access": "public",
+		"exports": null
+	},
+	"scripts": {
+		"build": "rollup --config node:@decentology/config/rollup.config.js",
+		"clean": "rimraf ./distribution",
+		"lint": "tsc --noEmit"
+	},
+	"peerDependencies": {
+		"react": "^17.0.2"
+	},
+	"browserslist": "> 0.5%, last 2 versions, not dead",
+	"engines": {
+		"node": ">=12.0.0"
+	},
+	"dependencies": {
+		"@decentology/hyperverse-storage-ipfs": "workspace:^",
+		"@decentology/hyperverse-storage-skynet": "workspace:^",
+		"@decentology/unstated-next": "workspace:^",
+		"@swc/helpers": "^0.3.6"
+	},
+	"devDependencies": {
+		"@decentology/config": "workspace:^",
+		"@types/react": "17.0.2",
+		"rimraf": "^3.0.2"
+	}
+}

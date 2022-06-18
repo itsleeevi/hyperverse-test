@@ -1,0 +1,48 @@
+{
+  "metis": {
+    "mainnet": {
+      "contractAddress": "",
+      "factoryAddress": ""
+    },
+    "testnet": {
+      "contractAddress": "",
+      "factoryAddress": ""
+    }
+  },
+  "avalanche": {
+    "mainnet": {
+      "contractAddress": "",
+      "factoryAddress": ""
+    },
+    "testnet": {
+      "contractAddress": "",
+      "factoryAddress": ""
+    }
+  },
+  "ethereum": {
+    "mainnet": {
+      "contractAddress": "",
+      "factoryAddress": ""
+    },
+    "testnet": {
+      "contractAddress": "0x97f4F9Bc143c29De4416a2C41981bA6c910Ca09b",
+      "factoryAddress": "0xF71672c768aDE9ce4c79e7F413571ba718C72b0e"
+    }
+  },
+  "polygon": {
+    "mainnet": {
+      "contractAddress": "",
+      "factoryAddress": ""
+    },
+    "testnet": {
+      "contractAddress": "",
+      "factoryAddress": ""
+    }
+  },
+  "localhost": {
+    "testnet": {
+      "contractAddress": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+      "factoryAddress": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+	"name": "@decentology/hyperverse-algorand-counter",
+	"source": "./source/index.ts",
+	"main": "./distribution/index.js",
+	"types": "./distribution/index.d.ts",
+	"type": "module",
+	"version": "1.0.16",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/decentology/hyperverse-mono"
+	},
+	"scripts": {
+		"clean": "rimraf ./distribution"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"distribution"
+	],
+	"peerDependencies": {
+		"react": "^17.0.2"
+	},
+	"devDependencies": {
+		"@decentology/config": "workspace:^",
+		"@types/react": "17.0.2",
+		"rimraf": "^3.0.2"
+	},
+	"dependencies": {
+		"@decentology/hyperverse": "workspace:^",
+		"@decentology/hyperverse-algorand": "workspace:^",
+		"algosdk": "^1.12.0"
+	}
+}
